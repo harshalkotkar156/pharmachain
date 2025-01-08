@@ -4,45 +4,54 @@ import ServicesCard from "../layouts/ServicesCard";
 import Patient from "../assets/img/Patient.png";
 import HealthCare from "../assets/img/HealthCare.png";
 
-const servicesCardData = [
-  {
-    title: 'Patients',
-    description: 'Quick and secure access to your health records and verified medications.',
-    icon: <img className="h-24 w-24 object-cover" src={Patient} alt="Patient Icon" />
-  },
-  {
-    title: 'Healthcare Providers',
-    description: 'Reliable tools to ensure secure and traceable medicine distribution.',
-    icon: <img className="h-24 w-24 object-cover" src={HealthCare} alt="Healthcare Icon" />
-  }
-];
-
 const Services = () => {
   return (
-    <div className="min-h-screen flex flex-col justify-center lg:px-16 px-2 pt-8 lg:pt-8">
-      <div className="flex flex-col items-center lg:flex-row justify-between">
-        <div>
-        <h1 className="text-4xl font-semibold text-center lg:text-start">
-            Our Services
-          </h1>
-          <p className="mt-2 text-center lg:text-start">
+    <div className="min-h-screen flex flex-col justify-center lg:px-16 px-2 lg:py-16 py-8 pt-0 lg:pt-0">
+      
+      <div className="text-center mb-8">
+        <h1 className="text-4xl text-left font-semibold">Our Services</h1>
+        <p className="mt-2 text-center lg:text-start">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, quidem.
           </p>
+      </div>
+
+      
+      <div className="flex flex-col lg:flex-row items-center justify-between mb-16 gap-8">
+        
+        <div className="lg:w-1/2 flex justify-center">
+          <ServicesCard
+            title="Patients"
+            description="Quick and secure access to your health records and verified medications."
+            icon={<img className="h-20 w-20 object-cover" src={Patient} alt="Patient Icon" />}
+          />
         </div>
-        <div className="mt-1">
-          <Button title="See Services" />
+
+        <div className="lg:w-1/2 text-left">
+          <h2 className="text-2xl font-bold mb-4">Patients</h2>
+          <p className="text-md text-gray-700">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam labore rerum tempore tenetur commodi natus quos itaque voluptatum repudiandae nostrum accusantium vero voluptate aspernatur totam, laboriosam aut, et quae consequatur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam labore rerum tempore tenetur commodi natus quos itaque voluptatum repudiandae nostrum accusantium vero voluptate aspernatur totam, laboriosam aut, et quae consequatur?
+          </p>
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row gap-5 pt-14 w-full justify-center">
-        {servicesCardData.map(({ title, description, icon }, index) => (
+      
+      <div className="flex flex-col lg:flex-row-reverse items-center justify-between gap-8">
+        
+        <div className="lg:w-1/2 flex justify-center">
           <ServicesCard
-            key={index}
-            title={title}
-            description={description}
-            icon={icon}
+            title="Healthcare Providers"
+            description="Reliable tools to ensure secure and traceable medicine distribution."
+            icon={<img className="h-20 w-20 object-cover" src={HealthCare} alt="Healthcare Icon" />}
           />
-        ))}
+        </div>
+
+        
+        <div className="lg:w-1/2 text-left">
+          <h2 className="text-2xl font-bold mb-4">Healthcare Providers</h2>
+          <p className="text-md text-gray-700">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam labore rerum tempore tenetur commodi natus quos itaque voluptatum repudiandae nostrum accusantium vero voluptate aspernatur totam, laboriosam aut, et quae consequatur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam labore rerum tempore tenetur commodi natus quos itaque voluptatum repudiandae nostrum accusantium vero voluptate aspernatur totam, laboriosam aut, et quae consequatur?
+          </p>
+        </div>
       </div>
     </div>
   );
