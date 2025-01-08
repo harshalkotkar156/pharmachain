@@ -4,6 +4,7 @@ import { CgProfile } from "react-icons/cg";
 import { FiHome } from "react-icons/fi";
 import { BsPrescription2 } from "react-icons/bs";
 import { LiaNotesMedicalSolid } from "react-icons/lia";
+import { LiaFileMedicalAltSolid } from "react-icons/lia"; // Added the Medical History icon
 import { CiSettings } from "react-icons/ci";
 
 const Sidebar = () => {
@@ -17,11 +18,11 @@ const Sidebar = () => {
         }`}
       >
         <div className="flex flex-col h-full">
-          {/* Toggle Button */}
+          
           <div className="flex justify-between items-center p-4">
             <button
               onClick={() => setSidebarExpanded(!sidebarExpanded)}
-              className="p-2 text-white text-opacity-60 hover:text-opacity-100 transition"
+              className="p-2 ml-auto text-white text-opacity-60 hover:text-opacity-100 transition"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +43,7 @@ const Sidebar = () => {
             </button>
           </div>
 
-          {/* Profile Icon */}
+          
           <Link
             to="/patient-dashboard"
             className="flex justify-center items-center w-12 h-12 mx-auto mt-4 bg-white text-[#576C8B] rounded-full hover:text-opacity-100 transition"
@@ -50,7 +51,7 @@ const Sidebar = () => {
             <CgProfile className="w-8 h-8" />
           </Link>
 
-          {/* Navigation Links */}
+          
           <div
             className={`${
               sidebarExpanded
@@ -67,6 +68,12 @@ const Sidebar = () => {
                   <FiHome className="w-6 h-6" />
                 </Link>
                 <Link
+                  to="/medical-history"
+                  className="flex justify-center items-center w-12 h-12 mx-auto text-white hover:text-opacity-100 transition"
+                >
+                  <LiaFileMedicalAltSolid className="w-6 h-6" />
+                </Link>
+                <Link
                   to="/prescription"
                   className="flex justify-center items-center w-12 h-12 mx-auto text-white hover:text-opacity-100 transition"
                 >
@@ -78,6 +85,8 @@ const Sidebar = () => {
                 >
                   <LiaNotesMedicalSolid className="w-6 h-6" />
                 </Link>
+                {/* Medical History Link */}
+                
               </>
             )}
 
@@ -88,6 +97,12 @@ const Sidebar = () => {
                   className="text-white text-left text-opacity-60 hover:text-opacity-100 transition"
                 >
                   <span className="ml-3">Home</span>
+                </Link>
+                <Link
+                  to="/medical-history"
+                  className="text-white text-left text-opacity-60 hover:text-opacity-100 transition"
+                >
+                  <span className="ml-3">Medical History</span>
                 </Link>
                 <Link
                   to="/prescription"
@@ -101,11 +116,13 @@ const Sidebar = () => {
                 >
                   <span className="ml-3">Lab Reports</span>
                 </Link>
+                
+                
               </>
             )}
           </div>
 
-          {/* Settings and Help at the Bottom */}
+          
           <div className="mt-auto px-4 py-6 space-y-4">
             {sidebarExpanded ? (
               <>
@@ -137,9 +154,9 @@ const Sidebar = () => {
         </div>
       </div>
 
-      {/* Main Content */}
+      
       <div className={`flex-grow ${sidebarExpanded ? "ml-64" : "ml-20"} p-8`}>
-        {/* Your main content goes here */}
+       
       </div>
     </div>
   );
