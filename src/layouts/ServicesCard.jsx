@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const ServicesCard = ({ icon, title, description }) => {
   return (
-    <div className="group flex flex-grow flex-col text-center gap-4 w-full lg:w-1/2 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg cursor-pointer lg:hover:-translate-y-6 transition duration-300 ease-in-out relative">
+    <div className="group flex flex-grow flex-col text-center gap-4 w-1/2 lg:w-full p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg cursor-pointer lg:hover:-translate-y-6 transition duration-300 ease-in-out relative">
       
       <div className="flex items-center gap-4"> 
         <div className="w-[80px] h-[80px] opacity-50">

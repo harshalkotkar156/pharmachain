@@ -1,12 +1,12 @@
 import React from "react";
+import { Link as ScrollLink } from "react-scroll"; // Alias for react-scroll Link
+import { Link as RouterLink } from "react-router-dom"; // Alias for react-router-dom Link
 
 const Footer = () => {
   return (
     <footer className="bg-[#D2D9E1] rounded-3xl text-black mt-8 md:mt-0 text-left">
       <div className="container">
-        {/* Titles and Content */}
         <div className="flex flex-col md:flex-row justify-between items-start p-8 md:px-16 px-5">
-          {/* PharmaChain Section */}
           <div className="w-full md:w-1/2 text-left">
             <h1 className="font-semibold text-3xl">PharmaChain</h1>
             <p className="text-m mt-2">
@@ -14,19 +14,34 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* About Us Section */}
           <div className="w-auto text-left">
             <h1 className="font-medium text-xl">About Us</h1>
             <div className="flex flex-col gap-2 mt-2">
-              <a href="#" className="text-opacity-60 text-black hover:text-opacity-100 transition">
-                About
-              </a>
-              <a href="#" className="text-opacity-60 text-black hover:text-opacity-100 transition">
+              {/* For scrolling within the page */}
+              <ScrollLink
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="text-opacity-60 text-black hover:text-opacity-100 transition"
+              >
+                About Us
+              </ScrollLink>
+
+              {/* For routing to other pages */}
+              <RouterLink
+                to="/patient-dashboard"
+                className="text-opacity-60 text-black hover:text-opacity-100 transition"
+              >
                 Patient
-              </a>
-              <a href="#" className="text-opacity-60 text-black hover:text-opacity-100 transition">
+              </RouterLink>
+
+              <RouterLink
+                to="/healthcare-dashboard"
+                className="text-opacity-60 text-black hover:text-opacity-100 transition"
+              >
                 HealthCare Providers
-              </a>
+              </RouterLink>
             </div>
           </div>
 

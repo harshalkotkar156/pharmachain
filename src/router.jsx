@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import App from './App';
+import Home from './components/Home';
 import PatientDashboard from './components/PatientDashboard';
 import MedicalHistory from './components/MedicalHistory';
 import Prescription from './components/Prescription';
@@ -12,6 +13,7 @@ const RouterSetup = () => {
     <Router>
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/home" element={<App />} />
         <Route path="/patient-dashboard" element={<PatientDashboard />} />
         <Route path="/medical-history" element={<MedicalHistory />} />
         <Route path="/prescription" element={<Prescription />} />
