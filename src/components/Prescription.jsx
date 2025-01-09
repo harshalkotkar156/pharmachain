@@ -19,14 +19,14 @@ const Prescription = () => {
 
           <div className="p-8 space-y-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8">
-            <div className="p-8 bg-white rounded-xl shadow-2xl">
+            <div className="p-8 bg-white rounded-xl shadow-md hover:shadow-md hover:shadow-2xl hover:shadow-blue-100 transition-all  hover:shadow-blue-100 transition-all ">
               <h2 className="text-2xl text-center  font-bold mb-4">Doctor Information</h2>
               <p><strong>Physician:</strong> Dr. John Doe, MD</p>
               <p><strong>Contact:</strong> +1 (555) 123-4567</p>
               <p><strong>Email:</strong> dr.johndoe@example.com</p>
             </div>
 
-            <div className="p-8 bg-white rounded-xl shadow-2xl">
+            <div className="p-8 bg-white rounded-xl shadow-md hover:shadow-md hover:shadow-2xl hover:shadow-blue-100 transition-all  hover:shadow-blue-100 transition-all ">
               <h2 className="text-2xl text-center font-bold mb-4">Pharmacy Information</h2>
               <p><strong>Pharmacy:</strong> HealthCare Pharmacy</p>
               <p><strong>Contact:</strong> +1 (555) 987-6543</p>
@@ -34,7 +34,7 @@ const Prescription = () => {
             </div>
           </div>
             
-            <div className="overflow-auto shadow-2xl max-h-[600px] p-8 rounded-xl bg-gray-50">
+            <div className="overflow-auto shadow-md hover:shadow-md hover:shadow-2xl hover:shadow-blue-100 transition-all  hover:shadow-blue-100 transition-all  max-h-[600px] p-8 rounded-xl bg-gray-50">
               
 
             <div className="flex pt-2 mb-4">
@@ -61,7 +61,7 @@ const Prescription = () => {
                 </thead>
                 <tbody>
                   
-                  <tr className="border-b">
+                  <tr className="border-b hover:bg-blue-100 transition-colors cursor-pointer">
                     <td className="px-6 py-2">Lorem ipsum dolor sit amet</td>
                     <td className="px-6 py-2">500 mg Tablet</td>
                     <td className="px-6 py-2">30</td>
@@ -69,7 +69,7 @@ const Prescription = () => {
                     <td className="px-6 py-2">2023-12-01</td>
                     <td className="px-6 py-2">2024-01-01</td>
                   </tr>
-                  <tr className="border-b">
+                  <tr className="border-b hover:bg-blue-100 transition-colors cursor-pointer">
                     <td className="px-6 py-2">Lorem ipsum dolor sit amet</td>
                     <td className="px-6 py-2">250 mg Liquid</td>
                     <td className="px-6 py-2">15</td>
@@ -77,7 +77,7 @@ const Prescription = () => {
                     <td className="px-6 py-2">2023-12-05</td>
                     <td className="px-6 py-2">2024-01-05</td>
                   </tr>
-                  <tr className="border-b">
+                  <tr className="border-b hover:bg-blue-100 transition-colors cursor-pointer">
                     <td className="px-6 py-2">Dolor sit amet consectetur</td>
                     <td className="px-6 py-2">200 mg Capsule</td>
                     <td className="px-6 py-2">60</td>
@@ -85,7 +85,7 @@ const Prescription = () => {
                     <td className="px-6 py-2">2023-11-15</td>
                     <td className="px-6 py-2">2024-01-15</td>
                   </tr>
-                  <tr className="border-b">
+                  <tr className="border-b hover:bg-blue-100 transition-colors cursor-pointer">
                     <td className="px-6 py-2">Consectetur adipiscing elit</td>
                     <td className="px-6 py-2">50 mg Tablet</td>
                     <td className="px-6 py-2">20</td>
@@ -93,7 +93,7 @@ const Prescription = () => {
                     <td className="px-6 py-2">2023-11-20</td>
                     <td className="px-6 py-2">2024-01-20</td>
                   </tr>
-                  <tr className="border-b">
+                  <tr className="border-b hover:bg-blue-100 transition-colors cursor-pointer">
                     <td className="px-6 py-2">Sed do eiusmod tempor</td>
                     <td className="px-6 py-2">100 mg Injection</td>
                     <td className="px-6 py-2">5</td>
@@ -101,7 +101,7 @@ const Prescription = () => {
                     <td className="px-6 py-2">2023-12-01</td>
                     <td className="px-6 py-2">2024-01-01</td>
                   </tr>
-                  <tr className="border-b">
+                  <tr className="border-b hover:bg-blue-100 transition-colors cursor-pointer">
                     <td className="px-6 py-2">Adipiscing elit ut aliquam</td>
                     <td className="px-6 py-2">10 mg Syrup</td>
                     <td className="px-6 py-2">30</td>
@@ -115,19 +115,19 @@ const Prescription = () => {
 
             <div className="flex flex-grow grid grid-cols-1 md:grid-cols-3 gap-8 p-8">
               
-              <div className="p-8  bg-white rounded-xl shadow-2xl lg:w-full w-full">
+              <div className="p-8  bg-white rounded-xl shadow-md hover:shadow-2xl hover:shadow-blue-100 transition-all  lg:w-full w-full">
                 <h2 className="text-2xl text-center font-bold mb-4">Indication</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt ante vitae feugiat fermentum.</p>
               </div>
 
              
-              <div className="p-8  bg-white rounded-xl shadow-2xl w-full">
+              <div className="p-8  bg-white rounded-xl shadow-md hover:shadow-2xl hover:shadow-blue-100 transition-all  w-full">
                 <h2 className="text-2xl text-center font-bold mb-4">Special Instructions</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum, risus a aliquam varius, lorem dolor vehicula orci.</p>
               </div>
 
               
-              <div className="p-8  bg-white rounded-xl shadow-2xl w-full">
+              <div className="p-8  bg-white rounded-xl shadow-md hover:shadow-2xl hover:shadow-blue-100 transition-all  w-full">
                 <h2 className="text-2xl text-center font-bold mb-4">Warnings</h2>
                 <p>May cause drowsiness. Avoid alcohol while taking this medication.</p>
               </div>
@@ -135,7 +135,7 @@ const Prescription = () => {
 
 
             <div className="flex  justify-center items-center h-full">
-              <div className="p-8  bg-white rounded-xl shadow-2xl">
+              <div className="p-8  bg-white rounded-xl shadow-md hover:shadow-2xl hover:shadow-blue-100 transition-all ">
                 <h2 className="text-2xl text-center font-bold mb-4">Doctor’s Notes</h2>
                 <p>Ensure the patient follows the dosage instructions strictly and comes for a follow-up appointment in 4 weeks.</p>
               </div>

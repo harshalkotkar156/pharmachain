@@ -30,13 +30,13 @@ const PatientDashboard = () => {
 
       <div className={`flex-grow ${sidebarExpanded ? "ml-2" : "ml-0"} bg-white`}>
         
-        <div className="bg-[#D2D9E1] rounded-xl text-left p-4">
-          <h1 className="text-4xl font-semibold">Dashboard</h1>
+        <div className="bg-[#576C8B] rounded-xl text-left p-4">
+          <h1 className="text-5xl text-white font-semibold">Dashboard</h1>
         </div>
         
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8">
-          <div className="bg-white shadow-lg rounded-lg p-6 w-full">
+          <div className="bg-white shadow-lg hover:shadow-2xl hover:shadow-[#BED0EF] transition-all rounded-lg p-6 w-full">
             <div className="flex flex-col items-center">
               <img
                 src={Profile}
@@ -48,7 +48,7 @@ const PatientDashboard = () => {
             </div>
           </div>
 
-          <div className="bg-white shadow-lg rounded-lg p-6 w-full col-span-1 md:col-span-1 lg:col-span-2">
+          <div className="bg-white shadow-lg hover:shadow-2xl hover:shadow-[#BED0EF] transition-all rounded-lg p-6 w-full col-span-1 md:col-span-1 lg:col-span-2">
             <h2 className="text-xl font-semibold mb-4">Patient Information</h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div className="text-left">
@@ -75,7 +75,7 @@ const PatientDashboard = () => {
 
         
         <div className="text-left grid grid-cols-1 md:grid-cols-3 gap-8 p-8">
-          <div className="bg-white shadow-lg rounded-lg p-6 w-full">
+          <div className="bg-white shadow-lg hover:shadow-2xl hover:shadow-[#BED0EF] transition-all rounded-lg p-6 w-full">
             <h2 className="text-xl font-bold mb-4">Health Updates</h2>
             <div className="space-y-4 text-gray-600">
               <div>
@@ -96,12 +96,12 @@ const PatientDashboard = () => {
             </div>
           </div>
 
-          <div className="bg-white shadow-md rounded-lg p-6 col-span-1 md:col-span-1">
+          <div className="bg-white shadow-md hover:shadow-2xl hover:shadow-[#BED0EF] transition-all rounded-lg p-6 col-span-1 md:col-span-1">
             <h2 className="text-xl font-bold text-left mb-4">Primary Diagnosis</h2>
             <p className="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
           </div>
 
-          <div className="bg-white shadow-md rounded-lg p-6 col-span-1 md:col-span-1">
+          <div className="bg-white shadow-md hover:shadow-2xl hover:shadow-[#BED0EF] transition-all rounded-lg p-6 col-span-1 md:col-span-1">
             <h2 className="text-xl font-bold text-left mb-4">Current Medication</h2>
             <table className="min-w-full table-auto">
               <thead className="bg-gray-100">
@@ -131,13 +131,13 @@ const PatientDashboard = () => {
     
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-8">
         
-          <div className="bg-white shadow-md rounded-lg p-6 col-span-1 md:col-span-2 lg:col-span-2">
+          <div className="bg-white shadow-md hover:shadow-2xl hover:shadow-[#BED0EF] transition-all rounded-lg p-6 col-span-1 md:col-span-2 lg:col-span-2">
             <h2 className=" text-xl font-bold text-left mb-4">Immunizations</h2>
             <div className="w-full h-64">
               <Line data={chartData} />
             </div>
           </div>
-          <div className="bg-white shadow-md rounded-lg p-6 col-span-1 md:col-span-1">
+          <div className="bg-white shadow-md hover:shadow-2xl hover:shadow-[#BED0EF] transition-all rounded-lg p-6 col-span-1 md:col-span-1">
             <h2 className="text-xl font-bold text-left mb-4">Allergies</h2>
             <ul className="list-disc text-left pl-5 space-y-2">
               <li>Peanuts</li>

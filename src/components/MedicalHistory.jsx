@@ -46,7 +46,7 @@ const MedicalHistory = () => {
           </thead>
           <tbody>
             
-            <tr className="border-b">
+            <tr className="border-b hover:bg-blue-100 transition-colors cursor-pointer">
               <td className="px-6 py-2">Lorem ipsum dolor sit amet</td>
               <td className="px-6 py-2">Dr. John Doe</td>
               <td className="px-6 py-2">Metformin</td>
@@ -60,7 +60,7 @@ const MedicalHistory = () => {
             </tr>
           
 
-                <tr className="border-b">
+                <tr className="border-b hover:bg-blue-100 transition-colors cursor-pointer">
                  <td className="px-6 py-2">Lorem ipsum dolor sit amet</td>
                  <td className="px-6 py-2">Dr. Jane Smith</td>
                  <td className="px-6 py-2">Aspirin</td>
@@ -72,7 +72,7 @@ const MedicalHistory = () => {
                   <button className="text-red-500 hover:underline">Delete</button>
                 </td>
               </tr>
-              <tr className="border-b">
+              <tr className="border-b hover:bg-blue-100 transition-colors cursor-pointer">
                    <td className="px-6 py-2">Lorem ipsum dolor sit amet</td>
                    <td className="px-6 py-2">Dr. Jane Smith</td>
                    <td className="px-6 py-2">Aspirin</td>
@@ -85,7 +85,7 @@ const MedicalHistory = () => {
                   </td>
                 </tr>
 
-                <tr className="border-b">
+                <tr className="border-b hover:bg-blue-100 transition-colors cursor-pointer">
                    <td className="px-6 py-2">Chronic Migraine</td>
                    <td className="px-6 py-2">Dr. John Doe</td>
                    <td className="px-6 py-2">Sumatriptan</td>
@@ -98,7 +98,7 @@ const MedicalHistory = () => {
                   </td>
                 </tr>
 
-                <tr className="border-b">
+                <tr className="border-b hover:bg-blue-100 transition-colors cursor-pointer">
                    <td className="px-6 py-2">Hypertension</td>
                    <td className="px-6 py-2">Dr. Mary Johnson</td>
                    <td className="px-6 py-2">Lisinopril</td>
@@ -111,7 +111,7 @@ const MedicalHistory = () => {
                   </td>
                 </tr>
 
-                <tr className="border-b">
+                <tr className="border-b hover:bg-blue-100 transition-colors cursor-pointer">
                    <td className="px-6 py-2">Type 2 Diabetes</td>
                    <td className="px-6 py-2">Dr. Alice White</td>
                    <td className="px-6 py-2">Metformin</td>
@@ -124,7 +124,7 @@ const MedicalHistory = () => {
                   </td>
                 </tr>
 
-                <tr className="border-b">
+                <tr className="border-b hover:bg-blue-100 transition-colors cursor-pointer">
                    <td className="px-6 py-2">Asthma</td>
                    <td className="px-6 py-2">Dr. Emily Davis</td>
                    <td className="px-6 py-2">Albuterol</td>
@@ -137,7 +137,7 @@ const MedicalHistory = () => {
                   </td>
                 </tr>
 
-                <tr className="border-b">
+                <tr className="border-b hover:bg-blue-100 transition-colors cursor-pointer">
                    <td className="px-6 py-2">Osteoarthritis</td>
                    <td className="px-6 py-2">Dr. Peter Brown</td>
                    <td className="px-6 py-2">Ibuprofen</td>
@@ -150,7 +150,7 @@ const MedicalHistory = () => {
                   </td>
                 </tr>
 
-                <tr className="border-b">
+                <tr className="border-b hover:bg-blue-100 transition-colors cursor-pointer">
                    <td className="px-6 py-2">COPD</td>
                    <td className="px-6 py-2">Dr. Olivia Green</td>
                    <td className="px-6 py-2">Salbutamol</td>
@@ -163,7 +163,7 @@ const MedicalHistory = () => {
                   </td>
                 </tr>
 
-                <tr className="border-b">
+                <tr className="border-b hover:bg-blue-100 transition-colors cursor-pointer">
                    <td className="px-6 py-2">Hyperthyroidism</td>
                    <td className="px-6 py-2">Dr. Laura Black</td>
                    <td className="px-6 py-2">Levothyroxine</td>
@@ -176,7 +176,7 @@ const MedicalHistory = () => {
                   </td>
                 </tr>
 
-                <tr className="border-b">
+                <tr className="border-b hover:bg-blue-100 transition-colors cursor-pointer">
                    <td className="px-6 py-2">Chronic Kidney Disease</td>
                    <td className="px-6 py-2">Dr. Matthew Grey</td>
                    <td className="px-6 py-2">Losartan</td>
@@ -189,7 +189,7 @@ const MedicalHistory = () => {
                   </td>
                 </tr>
 
-                <tr className="border-b">
+                <tr className="border-b hover:bg-blue-100 transition-colors cursor-pointer">
                    <td className="px-6 py-2">Heart Attack</td>
                    <td className="px-6 py-2">Dr. Henry Ford</td>
                    <td className="px-6 py-2">Atenolol</td>
@@ -202,7 +202,7 @@ const MedicalHistory = () => {
                   </td>
                 </tr>
 
-                <tr className="border-b">
+                <tr className="border-b hover:bg-blue-100 transition-colors cursor-pointer">
                    <td className="px-6 py-2">Depression</td>
                    <td className="px-6 py-2">Dr. Julia Bell</td>
                    <td className="px-6 py-2">Fluoxetine</td>
