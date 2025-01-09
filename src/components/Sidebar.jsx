@@ -4,7 +4,7 @@ import { CgProfile } from "react-icons/cg";
 import { FiHome } from "react-icons/fi";
 import { BsPrescription2 } from "react-icons/bs";
 import { LiaNotesMedicalSolid } from "react-icons/lia";
-import { LiaFileMedicalAltSolid } from "react-icons/lia"; // Added the Medical History icon
+import { LiaFileMedicalAltSolid } from "react-icons/lia"; 
 import { CiSettings } from "react-icons/ci";
 
 const Sidebar = () => {
@@ -85,8 +85,6 @@ const Sidebar = () => {
                 >
                   <LiaNotesMedicalSolid className="w-6 h-6" />
                 </Link>
-                {/* Medical History Link */}
-                
               </>
             )}
 

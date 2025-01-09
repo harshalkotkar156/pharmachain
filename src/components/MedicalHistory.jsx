@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import Sidebar from "../components/Sidebar";
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
-import { usePDF } from 'react-to-pdf';
-import { Download } from 'lucide-react';
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
 const MedicalHistory = () => {
-  const { toPDF } = usePDF({ filename: 'medicalhistory.pdf' });
+  
   const [sidebarExpanded, setSidebarExpanded] = useState(true);
 
   return (
@@ -16,25 +14,24 @@ const MedicalHistory = () => {
 
   <div className={`flex-grow ${sidebarExpanded ? "ml-2" : "ml-0"} bg-white`}>
     
-    <div className="bg-[#D2D9E1] rounded-xl text-left p-4">
-      <h1 className="text-4xl font-semibold">Medical History</h1>
+  <div className="bg-[#576C8B] rounded-xl text-left p-6 shadow-lg mb-8">
+  <h1 className="text-5xl font-semibold text-white">Medical History</h1>
     </div>
 
     <div className="p-8 space-y-8">
       
-      {/* PDF Download Button */}
+     
       <div className="flex">
         <h2 className="text-2xl font-bold text-left mb-4">Medical History</h2>
         <button
-          onClick={() => toPDF()}
-          className="flex ml-auto items-center gap-2 bg-blue-400 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors duration-200 ease-in-out text-sm"
+          onClick={() => alert('Download initiated')}
+          className="bg-blue-500 text-white px-4 py-2 rounded-lg ml-auto"
         >
-          <Download className="w-5 h-5" />
-          <span>Download PDF</span>
+          Download Report
         </button>
       </div>
 
-      {/* Medical History Table */}
+      
       <div className="overflow-x-auto shadow-2xl max-h-[600px] p-6 rounded-xl bg-gray-50">
         <table className="min-w-full table-auto">
           <thead className="bg-gray-100">
@@ -48,7 +45,7 @@ const MedicalHistory = () => {
             </tr>
           </thead>
           <tbody>
-            {/* Sample Row */}
+            
             <tr className="border-b">
               <td className="px-6 py-2">Lorem ipsum dolor sit amet</td>
               <td className="px-6 py-2">Dr. John Doe</td>

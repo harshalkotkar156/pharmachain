@@ -22,10 +22,10 @@ const CallToAction = () => {
       <div className="w-full lg:w-1/2 mb-8 lg:mb-0 text-left">
         <div className="border-t border-white w-16 mb-2"></div>
 
-        <form className="space-y-4"> {/* Reduced spacing */}
+        <form className="space-y-4"> 
           <div>
             <label className="block text-md font-medium" htmlFor="name">Name</label>
-            <div className="border-b border-black w-full mt-1 h-1"></div> {/* Adjusted margin */}
+            <div className="border-b border-black w-full mt-1 h-1"></div> 
             <input
               type="text"
               id="name"
@@ -34,7 +34,7 @@ const CallToAction = () => {
           </div>
           <div>
             <label className="block text-md font-medium" htmlFor="location">Location</label>
-            <div className="border-b border-black w-full mt-1 h-1"></div> {/* Adjusted margin */}
+            <div className="border-b border-black w-full mt-1 h-1"></div> 
             <input
               type="text"
               id="location"
@@ -43,7 +43,7 @@ const CallToAction = () => {
           </div>
           <div>
             <label className="block text-md font-medium" htmlFor="phone">Phone Number</label>
-            <div className="border-b border-black w-full mt-1 h-1"></div> {/* Adjusted margin */}
+            <div className="border-b border-black w-full mt-1 h-1"></div> 
             <input
               type="tel"
               id="phone"
@@ -52,7 +52,7 @@ const CallToAction = () => {
           </div>
           <div>
             <label className="block text-md font-medium" htmlFor="email">Email</label>
-            <div className="border-b border-black w-full mt-1 h-1"></div> {/* Adjusted margin */}
+            <div className="border-b border-black w-full mt-1 h-1"></div> 
             <input
               type="email"
               id="email"
@@ -60,7 +60,7 @@ const CallToAction = () => {
             />
           </div>
           <div className="flex justify-center items-center">
-            <Button title="Submit" className="rounded-md cursor-pointer align-center px-6 py-2" /> {/* Adjusted padding */}
+            <Button title="Submit" className="rounded-md cursor-pointer align-center px-6 py-2" /> 
           </div>
         </form>
       </div>

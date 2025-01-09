@@ -1,6 +1,6 @@
 import React from "react";
-import { Link as ScrollLink } from "react-scroll"; // Alias for react-scroll Link
-import { Link as RouterLink } from "react-router-dom"; // Alias for react-router-dom Link
+import { Link as ScrollLink } from "react-scroll"; 
+import { Link as RouterLink } from "react-router-dom"; 
 
 const Footer = () => {
   return (
@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="w-auto text-left">
             <h1 className="font-medium text-xl">About Us</h1>
             <div className="flex flex-col gap-2 mt-2">
-              {/* For scrolling within the page */}
+      
               <ScrollLink
                 to="about"
                 spy={true}
@@ -28,7 +28,6 @@ const Footer = () => {
                 About Us
               </ScrollLink>
 
-              {/* For routing to other pages */}
               <RouterLink
                 to="/patient-dashboard"
                 className="text-opacity-60 text-black hover:text-opacity-100 transition"
@@ -45,7 +44,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Social Section */}
           <div className="w-auto text-left">
             <h1 className="font-medium text-xl">Social</h1>
             <div className="flex flex-col gap-2 mt-2">
@@ -68,7 +66,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Footer Credits */}
         <div>
           <p className="text-center py-4">Designed and developed by</p>
         </div>

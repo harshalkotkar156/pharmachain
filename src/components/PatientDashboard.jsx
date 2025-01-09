@@ -34,7 +34,7 @@ const PatientDashboard = () => {
           <h1 className="text-4xl font-semibold">Dashboard</h1>
         </div>
         
-        {/* Profile and Patient Info */}
+        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8">
           <div className="bg-white shadow-lg rounded-lg p-6 w-full">
             <div className="flex flex-col items-center">
