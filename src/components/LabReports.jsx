@@ -57,7 +57,7 @@ const LabReports = () => {
       <div className={`flex-grow rounded-xl ${sidebarExpanded ? "ml-2" : "ml-0"} bg-gray-50`}>
         
         <div className="bg-[#576C8B] rounded-xl py-4 px-6 shadow-lg mb-4">
-          <h1 className="text-4xl text-left font-semibold text-white">Lab Reports</h1>
+          <h1 className="text-5xl text-left font-semibold text-white">Lab Reports</h1>
         </div>
     
         <div className="p-8">
@@ -87,7 +87,8 @@ const LabReports = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {filteredReports.map((report) => (
-              <div key={report.id} className="bg-white p-6 rounded-xl shadow-xl">
+              <div key={report.id} 
+              className="bg-white p-6 rounded-xl hover:border-blue-500 hover:border-2 shadow-md hover:shadow-2xl hover:shadow-[#BED0EF] transition-all">
                 <h3 className="text-xl font-bold mb-2">{report.testName}</h3>
                 <p className="text-left"><strong>Report Date:</strong> {report.reportDate}</p>
                 <p className="text-left"><strong>Status:</strong> {report.testStatus}</p>

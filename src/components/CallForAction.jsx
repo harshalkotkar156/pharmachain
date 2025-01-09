@@ -13,7 +13,7 @@ const CallToAction = () => {
             <h2 className="text-2xl font-bold mb-2">
               If you would like our assistance, please complete the form here and one of our team members will reach out to you.
             </h2>
-            <div className="border-t border-white w-16 mb-2 mx-auto lg:mx-0"></div>
+            <div className="border-t border-white w-16 mb-2 mx-auto lg:mx-0 shadow-lg hover:shadow-2xl hover:shadow-black transition-all "></div>
             <img src={img} alt="Contact us" className="mx-auto lg:mx-0 w-full max-w-7xl rounded-lg shadow-lg" />
           </div>
         </div>

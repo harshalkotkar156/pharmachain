@@ -1,15 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import Button from "../layouts/Button";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
-  const [showForm, setShowForm] = useState(false);
-
-  const handleChange = () => {
-    setMenu(!menu);
-  };
 
   const closeMenu = () => {
     setMenu(false);
@@ -55,7 +48,7 @@ const Navbar = () => {
               Services
             </Link>
 
-            <button className=" bg-yellow-500 hover:bg-yellow-300 text-black rounded-md  transition duration-300 ease-in-out py-2 px-4 rounded-lg">Log in</button>
+            <button className=" bg-yellow-500 hover:bg-yellow-300 text-black transition duration-300 ease-in-out py-2 px-4 rounded-lg">Log in</button>
           </nav>
       
         </div>
