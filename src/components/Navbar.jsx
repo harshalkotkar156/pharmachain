@@ -32,7 +32,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
-              className=" text-opacity-60 text-black hover:text-opacity-100 transition"
+              className=" text-opacity-60 text-black cursor-pointer hover:text-opacity-100 transition"
             >
               Home
             </Link>
@@ -41,7 +41,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
-              className=" text-opacity-60 text-black hover:text-opacity-100 transition"
+              className="cursor-pointer text-opacity-60 text-black hover:text-opacity-100 transition"
             >
               About Us
             </Link>
@@ -50,7 +50,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
-              className=" text-opacity-60 text-black hover:text-opacity-100 transition"
+              className="cursor-pointer text-opacity-60 text-black hover:text-opacity-100 transition"
             >
               Services
             </Link>
