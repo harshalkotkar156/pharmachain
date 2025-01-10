@@ -137,6 +137,7 @@ const PatientDashboard = () => {
               <Line data={chartData} />
             </div>
           </div>
+
           <div className="bg-white shadow-md hover:shadow-2xl hover:shadow-[#BED0EF] transition-all rounded-lg p-6 col-span-1 md:col-span-1">
             <h2 className="text-xl font-bold text-left mb-4">Allergies</h2>
             <ul className="list-disc text-left pl-5 space-y-2">
@@ -146,6 +147,7 @@ const PatientDashboard = () => {
               <li>Shellfish</li>
             </ul>
           </div>
+          
         </div>
       </div>
     </div>
