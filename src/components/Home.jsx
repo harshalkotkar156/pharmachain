@@ -3,7 +3,7 @@ import Button from "../layouts/Button";
 
 const Home = () => {
   return (
-    <div className="bg-[#576C8B] pb-0 text-black rounded-3xl py-[72px] sm:py-24 relative overflow-clip">
+    <div className="bg-[#576C8B] pb-0 mt-4 text-black rounded-3xl py-[72px] sm:py-24 relative overflow-clip">
         <div className="container relative">
             <div className="flex justify-center">
                 <div className="inline-flex relative">

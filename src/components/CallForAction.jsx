@@ -24,38 +24,39 @@ const CallToAction = () => {
 
         <form className="space-y-4"> 
           <div>
-            <label className="block text-md font-medium" htmlFor="name">Name</label>
+            
             <div className="border-b border-black w-full mt-1 h-1"></div> 
             <input
               type="text"
               id="name"
+              placeholder="Name"
               className="w-full p-3 mt-1 text-black bg-transparent focus:outline-none"
             />
           </div>
           <div>
-            <label className="block text-md font-medium" htmlFor="location">Location</label>
             <div className="border-b border-black w-full mt-1 h-1"></div> 
             <input
               type="text"
               id="location"
+              placeholder="Location"
               className="w-full p-3 mt-1 text-black bg-transparent focus:outline-none"
             />
           </div>
           <div>
-            <label className="block text-md font-medium" htmlFor="phone">Phone Number</label>
             <div className="border-b border-black w-full mt-1 h-1"></div> 
             <input
               type="tel"
               id="phone"
+              placeholder="Phone Number"
               className="w-full p-3 mt-1 text-black bg-transparent focus:outline-none"
             />
           </div>
           <div>
-            <label className="block text-md font-medium" htmlFor="email">Email</label>
             <div className="border-b border-black w-full mt-1 h-1"></div> 
             <input
               type="email"
               id="email"
+              placeholder="Email"
               className="w-full p-3 mt-1 text-black bg-transparent focus:outline-none"
             />
           </div>

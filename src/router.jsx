@@ -7,6 +7,9 @@ import MedicalHistory from './components/MedicalHistory';
 import Prescription from './components/Prescription';
 import LabReports from './components/LabReports';
 import HealthCareDashboard from './components/HealthCareDashboard';
+import InStock from './components/InStock';
+import OutOfStock from './components/OutOfStock';
+import Expiry from './components/Expiry';
 
 const RouterSetup = () => {
   return (
@@ -19,6 +22,9 @@ const RouterSetup = () => {
         <Route path="/prescription" element={<Prescription />} />
         <Route path="/lab-reports" element={<LabReports />} />
         <Route path="/healthcare-dashboard" element={<HealthCareDashboard />} />
+        <Route path="/in-stock" element={<InStock />} />
+        <Route path="/out-of-stock" element={<OutOfStock />} />
+        <Route path="/expiry" element={<Expiry />} />
       </Routes>
     </Router>
   );

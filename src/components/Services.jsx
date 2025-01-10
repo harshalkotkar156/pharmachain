@@ -29,7 +29,7 @@ const Services = () => {
         <div className="lg:w-1/2 text-left">
           <h2 className="text-2xl font-bold mb-4">Patients</h2>
           <p className="text-md text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam labore rerum tempore tenetur commodi natus quos itaque voluptatum repudiandae nostrum accusantium vero voluptate aspernatur totam, laboriosam aut, et quae consequatur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam labore rerum tempore tenetur commodi natus quos itaque voluptatum repudiandae nostrum accusantium vero voluptate aspernatur totam, laboriosam aut, et quae consequatur?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam labore rerum tempore tenetur commodi natus quos itaque voluptatum repudiandae nostrum accusantium vero voluptate aspernatur totam, laboriosam aut, et quae consequatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam labore rerum tempore tenetur commodi natus quos itaque voluptatum repudiandae nostrum accusantium vero voluptate aspernatur totam, laboriosam aut, et quae consequatur.
           </p>
         </div>
       </div>
@@ -48,7 +48,7 @@ const Services = () => {
         <div className="lg:w-1/2 text-left">
           <h2 className="text-2xl font-bold mb-4">Healthcare Providers</h2>
           <p className="text-md text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam labore rerum tempore tenetur commodi natus quos itaque voluptatum repudiandae nostrum accusantium vero voluptate aspernatur totam, laboriosam aut, et quae consequatur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam labore rerum tempore tenetur commodi natus quos itaque voluptatum repudiandae nostrum accusantium vero voluptate aspernatur totam, laboriosam aut, et quae consequatur?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam labore rerum tempore tenetur commodi natus quos itaque voluptatum repudiandae nostrum accusantium vero voluptate aspernatur totam, laboriosam aut, et quae consequatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam labore rerum tempore tenetur commodi natus quos itaque voluptatum repudiandae nostrum accusantium vero voluptate aspernatur totam, laboriosam aut, et quae consequatur.
           </p>
         </div>
       </div>
