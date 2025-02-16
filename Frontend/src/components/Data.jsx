@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { ethers } from "ethers";
+import Stock from './Stock';
 import bytedata from '../contractData/MedicineStock.json';
 
 export const Data = () => {
@@ -16,7 +17,7 @@ export const Data = () => {
         const connectWallet = async () => {
             try {
                 // 0xfFac919967a37990139dEaB1b9eF3Acb140604f8
-                const contractAddress="0x2DECB9Adedf55e0B187156aE39f1Ed5C63b9F263";
+                const contractAddress="0xBf37c9aDB601DFfbcDb066A9D623a0E82e27d64a";
                 const contractABI = bytedata.abi;
                 
                 // console.log("Thisis Contrct abi : ",contractABI);
@@ -134,7 +135,7 @@ export const Data = () => {
     return (
         <div>
             <p>Connected Account: {account}</p>
-            
+{/*             
             <button onClick={getStock}>Fetch Stock</button>
             <p>Current Stock: {stockVal}</p>
 
@@ -148,7 +149,12 @@ export const Data = () => {
             <div>
                 <input id="decreaseStockInput" type="number" placeholder="Enter amount" />
                 <button onClick={decrementStock}>Decrease Stock</button>
-            </div>
+            </div> */}
+
+            <div className='bg-slate-500 mt-3'>From here </div>
+
+            <Stock state={state} ></Stock>
+
         </div>
     );
 };

@@ -38,8 +38,8 @@
       ]
     },
     "/Users/harshalannasahebkotkar/Disk/ReactProjects/pharmachain/contracts/MedicineStock.sol": {
-      "lastModificationDate": 1739728014927,
-      "contentHash": "d8495f46cd522c1c2113b94fb63c3062",
+      "lastModificationDate": 1739733079829,
+      "contentHash": "a74ac2029cc4f628522a47d9e44ecf7b",
       "sourceName": "contracts/MedicineStock.sol",
       "solcConfig": {
         "version": "0.8.28",
@@ -67,7 +67,7 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8.0"
+        "^0.8.20"
       ],
       "artifacts": [
         "MedicineStock"

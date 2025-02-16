@@ -3,7 +3,7 @@ const hre = require("hardhat");
 
 async function main() {
   const MedicineStock = await hre.ethers.getContractFactory("MedicineStock"); // Fetching the contract
-  const stock = await MedicineStock.deploy(10); // Deploying the contract with initial stock
+  const stock = await MedicineStock.deploy(); // Deploying the contract with initial stock
 
   await stock.waitForDeployment(); // Wait for deployment to complete
   const contractAddress = await stock.getAddress();
