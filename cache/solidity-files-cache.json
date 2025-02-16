@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/harshalannasahebkotkar/Disk/Blockchain/Temp2/contracts/MedicineStock.sol": {
+      "lastModificationDate": 1739705065015,
+      "contentHash": "d8495f46cd522c1c2113b94fb63c3062",
+      "sourceName": "contracts/MedicineStock.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MedicineStock"
+      ]
+    },
+    "/Users/harshalannasahebkotkar/Disk/ReactProjects/pharmachain/contracts/MedicineStock.sol": {
+      "lastModificationDate": 1739728014927,
+      "contentHash": "d8495f46cd522c1c2113b94fb63c3062",
+      "sourceName": "contracts/MedicineStock.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MedicineStock"
+      ]
+    }
+  }
+}

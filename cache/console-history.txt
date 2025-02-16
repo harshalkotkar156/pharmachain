@@ -1,0 +1,11 @@
+.exit
+.Data.js
+.Data.jsx
+.load
+.help
+console.log("Contract deployed to:", medicineStock.address);.exit
+await medicineStock.deployed();
+const medicineStock = await MedicineStock.deploy(100); // Initialize with 100 stock
+const MedicineStock = await ethers.getContractFactory("MedicineStock");
+console.log(getStock())
+const contract = await ethers.getContractAt("MedicineStock", "0xYourContractAddress");

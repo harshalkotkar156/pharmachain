@@ -1,5 +1,6 @@
 
 import React, { useState } from "react";
+import { Data } from "./Data";
 
 const HealthCareProviderDashboard = () => {
 
@@ -11,9 +12,12 @@ const HealthCareProviderDashboard = () => {
       <div className="bg-[#D2D9E1] rounded-xl text-left p-4">
       <h1 className="text-4xl font-semibold">Dashboard</h1>
       </div>
+      
+    hello
+      <Data></Data>
 
-      <h1>Welcome to Healthcare Provider Dashboard</h1>
-      <p>Your provider tools will be displayed here.</p>
+      {/* <h1>Welcome to Healthcare Provider Dashboard</h1>
+      <p>Your provider tools will be displayed here.</p> */}
     </div>
     
   );

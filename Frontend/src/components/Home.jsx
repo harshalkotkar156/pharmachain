@@ -13,7 +13,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="flex justify-center">
-                <p className="text-center text-xl mt-8 max-w-[800px]">
+                <p className="text-center text-xl mt-8 max-w-[800px] text-zinc-300">
                 Harnessing the power of blockchain to ensure safe, transparent, and reliable healthcare solutions for everyone.</p>
             </div>
         </div> 
